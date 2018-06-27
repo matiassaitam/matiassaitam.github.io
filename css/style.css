@@ -1,0 +1,61 @@
+/* CSS */
+
+body {
+background-color: #22e2b6 !important;
+
+
+}
+
+#portada {
+	margin-top: 100px;
+	border: 5px, solid;
+	opacity: 0.90;
+
+
+}
+
+	
+
+#descripcion {
+	color: white;
+}
+
+li {
+	color: white;
+}
+
+#listt {
+	margin-top: 100px;
+}
+
+#lista{
+	margin-top: 100px;
+	color: white;
+}
+
+
+#mapa{
+	margin-top: 100px;
+	
+}
+.footerr {
+	margin-top: 50px;
+}
+
+.form{
+	margin-top:  100px;
+	margin-left: 80px;
+	
+}
+
+#contrasena{
+	width: 30%;
+}
+
+#usn{
+	width: 30%;
+}
+
+#checkbox{
+	width: 30%;
+}
