@@ -1,61 +1,87 @@
 /* CSS */
 
-body {
-background-color: #22e2b6 !important;
-
-
+.navbar {
+    color: #FFFFFF;
+    background-color: #CC3333;
+	fixed-top
 }
 
-#portada {
-	margin-top: 100px;
-	border: 5px, solid;
-	opacity: 0.90;
-
-
-}
-
-	
-
-#descripcion {
-	color: white;
-}
-
-li {
-	color: white;
-}
-
-#listt {
-	margin-top: 100px;
-}
-
-#lista{
-	margin-top: 100px;
-	color: white;
-}
-
-
-#mapa{
-	margin-top: 100px;
+		
+.jumbotron{
+	margin-bottom: 0px;
+	margin-top: 20px;
+	background-image: url("https://www.digitalvibez.org/wp-content/uploads/2014/07/Backround-forest.jpg");
+	color: #4dff4d;
+	height:640px;
+	width: 100%;
+	opacity: 0.96;
 	
 }
-.footerr {
+
+.display-2{
+	color: antiquewhite;
+	margin: auto;
+}
+
+.jumbo {
 	margin-top: 50px;
+
 }
 
-.form{
-	margin-top:  100px;
-	margin-left: 80px;
+.jumbotron img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.col-md {
+	color: white;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.col-md h2 {
+	color: antiquewhite;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.card-deck {
+	margin-bottom: 135px;
+	opacity: 0.93;
+}
+
+.card-body {
+	border: 1px solid grey;
+	background-color: antiquewhite;
 	
 }
 
-#contrasena{
-	width: 30%;
+.card-title, .card-body, .card-text {
+	color: black;
+	
 }
 
-#usn{
-	width: 30%;
+#boton1 {
+	margin-top: 5px;
 }
 
-#checkbox{
-	width: 30%;
+.card-subtitle {
+	color: #8A0808;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.container, ol{
+	text-align: left;
+	
+}
+
+.olenglish{
+	color: black;
+}
+
+.div card-body, .english, .objetivos{
+	padding: 10px;
+	text-align: center;
 }
