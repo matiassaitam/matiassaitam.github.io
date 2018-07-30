@@ -9,6 +9,7 @@
 	<script src="bootstrap_jquery/bootstrap.min.js"></script> <!-- JQUERY FOR BOOTSTRAP -->
 	<link rel = "stylesheet" type = "text/css" href = "css/style.css" /> <!-- STYLE.CSS -->
 	<!-- End of scripts and css stuff -->
+	<script src="js/top.js"></script>
 	
 	<title>Portfolio</title>
 	</head>
@@ -24,7 +25,7 @@
 				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
 				<div class="dropdown-menu container-fluid">
 					<a class="dropdown-item" href="#carouselito">Competencias</a>
-					<a class="dropdown-item" href="#">#</a>
+					<a class="dropdown-item" href="#plan de accion">Plan de Acción</a>
 					<a class="dropdown-item" href="#contacto">Contacto</a>
 				</div>
 				
@@ -33,7 +34,7 @@
 				<a class="nav-link" href="#carouselito">Competencias</a>
 			</li>
 			<li>
-				<a class="nav-link" target="_blank" href="cv.html">Ver mi CV</a>
+				<a class="nav-link" href="css/cv.pdf">Ver mi CV</a>
 			</li>
 			
 		</ul>
@@ -57,12 +58,7 @@
 							</p>
 							
 						</div>
-						<div class="col-md">
-							<h2>Competencias transversales</h2>
-							<p>Dentro del área de competencias transversales he adquirido diversas habilidades y conocimientos que me permiten estar al día con el ámbito laboral y profesional desarrollando un enfoque consistente hacia el mismo. </p>
-							<p>Entre las competencias adquiridas a lo largo del curso puedo destacar; la proactividad, el trabajo en equipo, la comunicación, planificación, escucha activa, dedicación y el esfuerzo.</p>
-							<p>He vivido más de 2 años en el extranjero trabajando en diversos rubros y poseo dominio del idioma inglés.</p>
-						</div>
+						
 					</div>
 				</div>
 			<button class="btn btn-success" type="button" id="boton1"  data-toggle="modal" data-target="#exampleModal"><strong>Contácteme</strong></button>
@@ -193,7 +189,7 @@
 							<div class="card-body">
 							  <h5 class="card-title"><b>Humildad y autocrítica</b></h5>
 							  <p class="card-text">Cheque una de las actividades que realizamos en el curso de competencias!.</p>
-							  <button onclick="location.href='extra.html'" class="btn btn-success">Mostrar contenido</button>
+							  <button onclick="location.href='css/humil.pdf'" class="btn btn-success">Mostrar contenido</button>
 							</div>
 						  </div>
 						</div>
@@ -209,7 +205,69 @@
 				</a>
 			</div>
 		</div>	
-	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	
+		<div class="col-md" id="competencias">
+							<h2><strong>Competencias transversales</strong></h2>
+							<p>Dentro del área de competencias transversales he adquirido diversas habilidades y conocimientos que me permiten estar al día con el ámbito laboral y profesional desarrollando un enfoque consistente hacia el mismo. </p>
+							<p>Entre las competencias adquiridas a lo largo del curso puedo destacar; la proactividad, el trabajo en equipo, la comunicación, planificación, escucha activa, dedicación y el esfuerzo.</p>
+							<p>He vivido más de 2 años en el extranjero trabajando en diversos rubros y poseo dominio del idioma inglés.</p>
+		</div>
+		
+		<div class="accordion" id="accordion">
+		  <div class="card">
+		    <div class="card-header" id="plan de accion">
+		      <h5 class="mb-0">
+		        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		           1) Plan de acción.
+		        </button>
+		      </h5>
+		    </div>
+
+		    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+		      <div class="card-body">
+		     <p>¿Qué? Determinare mi objetivo central el cual ha sido fuertemente influenciado por medio de Jap.</p>
+				<p>Pretendo <strong>potenciar el crecimiento profesional y personal</strong> complementándome diariamente con las TICs.</p>
+		      </div>
+		    </div>
+		  </div>
+		  
+		  <div class="card">
+		    <div class="card-header" id="headingTwo">
+		      <h5 class="mb-0">
+		        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		          2) Administración de recursos.
+		        </button>
+		      </h5>
+		    </div>
+		    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+		      <div class="card-body">
+		        <p>¿Cómo? Para lograr mi objetivo central establecere una estrategia en la cual pueda actualizar cotidianamente los conocimientos que me brindo JaP.</p>
+				<p>Recurso mas preciado: Tiempo.</p>
+				<p>Esto consistira en dedicar diariamente horas para el estudio como rutina, de tal manera culminar las certificaciones en desarrollo web que me permitan mayor inserción laboral. </p>
+		      </div>
+		    </div>
+	  	</div>
+  
+		<div class="card">
+		    <div class="card-header" id="headingThree">
+		      <h5 class="mb-0">
+		        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+		         3) Análisis de Riesgos.
+		        </button>
+		      </h5>
+		    </div>
+		    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+		      <div class="card-body">
+		      <p> Los posibles riesgos que se pueden presentar es la falta de tiempo y como consecuencia la postergacion de las certificaciones necesarias. </p>
+			  <p>Sin embargo para mitigar los mismos contare con una estrategia en la cual pueda gestionar mis tiempos adecuadamente y abarcar el contenido con efectividad.</p>
+			  <p>Todo tiempo da lugar a una posibilidad para aprender y actualizarse.</p>
+
+		      </div>
+	    	</div>
+	  	</div>
+	</div>
+    
+	
 		
 	<div class="container">	
 	
@@ -223,7 +281,7 @@
 		      <!-- Grid column -->
 		      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
 		        <h6 class="text-uppercase mb-4 font-weight-bold">Matias Amorim <p>Sitio Personal JaP</p></h6>
-		        <p>Gracias por haber visitado mi sitio, en caso de querer ponerte en contacto conmigo por favor enviar un e-mail a través de mi formulario de contacto.</p>
+		        <p>Gracias por haber visitado mi sitio, en caso de querer ponerte en contacto conmigo por favor enviar un e-mail a través de mi formulario de contacto.</p><button class="btn btn-success" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 		      </div>
 		      <!-- Grid column -->
 		      <hr class="w-100 clearfix d-md-none">
