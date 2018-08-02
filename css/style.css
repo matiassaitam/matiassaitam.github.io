@@ -60,11 +60,13 @@ body {background-color: #FAFAFA;}
 background: #abbaab;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+margin-top: 50px;
 }
-
-.top-cont {
-   background: linear-gradient(to bottom left, #ffffcc 0%, #ccff99 100%);
+#textura{
+	 background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	 background-image: url('https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiqvL3Yqs_cAhWCHpAKHY1hDfgQjRx6BAgBEAU&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F109937-dirty-grunge-background-texture&psig=AOvVaw0lflB0zlo8XUUhw_txmxMM&ust=1533332448440937')
 }
 
 
@@ -109,7 +111,23 @@ background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, F
 			
 			
 }
+#objetivocentral h3, h5{color: #111;
+				font-family: 'Helvetica Neue', sans-serif; 
+				font-size: 24px; 
+				font-weight: bold; 
+				letter-spacing: -1px; 
+				 
+				text-align: center;
 
+}
+#objetivocentral p{ color: #111; 
+				font-family: 'Open Sans', sans-serif; 
+				font-size: 16px; 
+				padding-top: 10px;
+				text-align: center; 
+			
+			
+}
 
 #competencias h2{ color: #111;
 				font-family: 'Helvetica Neue', sans-serif; 
@@ -139,7 +157,7 @@ background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, F
 }
 
 #objetivocentral {
-	 margin: 0 auto; /* Added */
+	 margin: auto; /* Added */
         float: none; /* Added */
         margin-bottom: 10px; 
        text-align: center;
@@ -149,3 +167,8 @@ background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, F
 	padding: 	10px;
 }
 
+.col-md-6{
+
+	padding: 30px;
+
+}
