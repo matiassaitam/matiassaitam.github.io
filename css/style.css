@@ -1,4 +1,4 @@
-/* CSS */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
 
 .navbar {
     color: #FFFFFF;
@@ -11,10 +11,12 @@
 	margin-bottom: 0px;
 	margin-top: 20px;
 	background-image: url("https://www.digitalvibez.org/wp-content/uploads/2014/07/Backround-forest.jpg");
-	color: #4dff4d;
+	
 	height:640px;
 	width: 100%;
 	opacity: 0.96;
+ 	 border-bottom: solid #fafafa 3px;
+	 border-bottom-style: groove;
 	
 }
 
@@ -49,16 +51,20 @@
 .card-deck {
 	margin-bottom: 135px;
 	opacity: 0.93;
+	
+
 }
 
 .card-body {
 	border: 1px solid grey;
 	background-color: antiquewhite;
-	
+	border-style: ridge;
+
 }
 
 .card-title, .card-body, .card-text {
 	color: black;
+
 	
 }
 
@@ -84,6 +90,7 @@
 .div card-body, .english, .objetivos{
 	padding: 10px;
 	text-align: center;
+
 }
 
 #competencias{
@@ -95,3 +102,15 @@
 	text-align: center;
 	color: black; 
 }
+
+#carouselito {
+	 border-bottom: solid #fafafa 3px;
+	 border-bottom-style: groove;
+}
+
+ body{
+	   	
+	   border-bottom: solid #fafafa 3px;
+	 border-bottom-style: groove;
+}
+
