@@ -105,6 +105,7 @@
 				<div class="carousel-item active">
 					<img class="d-block w-100" src="css/carousel.jpg" alt="First slide" width=1000px; height=640px>
 					<div class="carousel-caption d-none d-md-block">
+							
 						<div class="card-deck">
 						  <div class="card">
 							<div class="card-body">
@@ -157,7 +158,7 @@
 				<div class="carousel-item">
 					<img class="d-block w-100" src="css/pintura.jpg" alt="Third slide"  width=1500px; height=640px>
 					<div class="carousel-caption d-none d-md-block">
-					<div class="card-deck">
+						<div class="card-deck">
 						  <div class="card">
 							<div class="card-body objetivos">
 							  <h5 class="card-title"><b>Objetivos corto plazo</b></h5>
@@ -187,13 +188,32 @@
 							</div>
 						  </div>
 						  
-						  <div class="card">
-							<div class="card-body">
-							  <h5 class="card-title"><b>Humildad y autocrítica</b></h5>
-							  <p class="card-text">Cheque una de las actividades que realizamos en el curso de competencias!.</p>
-							  <button id="botonhover" onclick="location.href='css/humil.pdf'" class="btn btn-success">Mostrar contenido</button>
+							<!-- Card -->
+							<div class="card">
+
+							  <!-- Card image -->
+							  <div class="view overlay">
+								<img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
+								<a href="#!">
+								  <div class="mask rgba-white-slight"></div>
+								</a>
+							  </div>
+
+							  <!-- Card content -->
+							  <div class="card-body">
+
+								<!-- Title -->
+								<h5 class="card-title">Humildad y autocrítica</h5>
+								<!-- Text -->
+								<p class="card-text">Cheque una de las actividades que realizamos en el curso de competencias!.</p>
+								<!-- Button -->
+								<a href="css/humil.pdf" class="btn btn-primary">Mostrar contenido</a>
+
+							  </div>
+
 							</div>
-						  </div>
+							<!-- Card -->
+							  
 						</div>
 					</div>
 				</div>
@@ -208,72 +228,74 @@
 			</div>
 		</div>	
 		
-		
-		<div class="col-md" id="competencias">
-							<h2><strong>Competencias transversales</strong></h2>
-							<p>Dentro del área de competencias transversales he adquirido diversas habilidades y conocimientos que me permiten estar al día con el ámbito laboral y profesional desarrollando un enfoque consistente hacia el mismo. </p>
-							<p>Entre las competencias adquiridas a lo largo del curso puedo destacar; la proactividad, el trabajo en equipo, la comunicación, planificación, escucha activa, dedicación y el esfuerzo.</p>
-							<p>He vivido más de 2 años en el extranjero trabajando en diversos rubros y poseo dominio del idioma inglés.</p>
-		</div>
-	p the bulk of the card's content.</p>
-  </div>
-		<div class="accordion" id="accordion">
-		  <div class="card">
-		    <div class="card-header" id="plan de accion">
-		      <h5 class="mb-0">
-		        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-		           1) Plan de acción.
-		        </button>
-		      </h5>
-		    </div>
+		<div class="container-fluid top-cont">
+			<div class="col-md" id="competencias">
+								<h2><strong>Competencias transversales</strong></h2>
+								<p>Dentro del área de competencias transversales he adquirido diversas habilidades y conocimientos que me permiten estar al día con el ámbito laboral y profesional desarrollando un enfoque consistente hacia el mismo. </p>
+								<p>Entre las competencias adquiridas a lo largo del curso puedo destacar; la proactividad, el trabajo en equipo, la comunicación, planificación, escucha activa, dedicación y el esfuerzo.</p>
+								<p>He vivido más de 2 años en el extranjero trabajando en diversos rubros y poseo dominio del idioma inglés.</p>
+			</div>
 
-		    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-		      <div class="card-body">
-		     <p>¿Qué? Determinare mi objetivo central el cual ha sido fuertemente influenciado por medio de Jap.</p>
-				<p>Pretendo <strong>potenciar el crecimiento profesional y personal</strong> complementándome diariamente con las TICs.</p>
-		      </div>
-		    </div>
-		  </div>
+			
+			<div class="container-fluid col-md-9 col-centered"
+				<div class="accordion " id="accordion">
+				  <div class="card">
+					<div class="card-header" id="plan de accion">
+					  <h5 class="mb-0">
+						<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						   1) Plan de acción.
+						</button>
+					  </h5>
+					</div>
+
+					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+					  <div class="card-body">
+					 <p>¿Qué? Determinare mi objetivo central el cual ha sido fuertemente influenciado por medio de Jap.</p>
+						<p>Pretendo <strong>potenciar el crecimiento profesional y personal</strong> complementándome diariamente con las TICs.</p>
+					  </div>
+					</div>
+				  </div>
+				  
+				  <div class="card">
+					<div class="card-header" id="headingTwo">
+					  <h5 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						  2) Administración de recursos.
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+					  <div class="card-body">
+						<p>¿Cómo? Para lograr mi objetivo central establecere una estrategia en la cual pueda actualizar cotidianamente los conocimientos que me brindo JaP.</p>
+						<p>Recurso mas preciado: Tiempo.</p>
+						<p>Esto consistira en dedicar diariamente horas para el estudio como rutina, de tal manera culminar las certificaciones en desarrollo web que me permitan mayor inserción laboral. </p>
+					  </div>
+					</div>
+				</div>
 		  
-		  <div class="card">
-		    <div class="card-header" id="headingTwo">
-		      <h5 class="mb-0">
-		        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-		          2) Administración de recursos.
-		        </button>
-		      </h5>
-		    </div>
-		    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-		      <div class="card-body">
-		        <p>¿Cómo? Para lograr mi objetivo central establecere una estrategia en la cual pueda actualizar cotidianamente los conocimientos que me brindo JaP.</p>
-				<p>Recurso mas preciado: Tiempo.</p>
-				<p>Esto consistira en dedicar diariamente horas para el estudio como rutina, de tal manera culminar las certificaciones en desarrollo web que me permitan mayor inserción laboral. </p>
-		      </div>
-		    </div>
-	  	</div>
-  
-		<div class="card">
-		    <div class="card-header" id="headingThree">
-		      <h5 class="mb-0">
-		        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-		         3) Análisis de Riesgos.
-		        </button>
-		      </h5>
-		    </div>
-		    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-		      <div class="card-body">
-		      <p> Los posibles riesgos que se pueden presentar es la falta de tiempo y como consecuencia la postergacion de las certificaciones necesarias. </p>
-			  <p>Sin embargo para mitigar los mismos contare con una estrategia en la cual pueda gestionar mis tiempos adecuadamente y abarcar el contenido con efectividad.</p>
-			  <p>Todo tiempo da lugar a una posibilidad para aprender y actualizarse.</p>
+				<div class="card">
+					<div class="card-header" id="headingThree">
+					  <h5 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						 3) Análisis de Riesgos.
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+					  <div class="card-body">
+					  <p> Los posibles riesgos que se pueden presentar es la falta de tiempo y como consecuencia la postergacion de las certificaciones necesarias. </p>
+					  <p>Sin embargo para mitigar los mismos contare con una estrategia en la cual pueda gestionar mis tiempos adecuadamente y abarcar el contenido con efectividad.</p>
+					  <p>Todo tiempo da lugar a una posibilidad para aprender y actualizarse.</p>
 
-		      </div>
-	    	</div>
-	  	</div>
-	</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
     
 	
 		
-	<div class="container">	
+	<div class="container-fluid bottom-cont">	
 	
 	
 		<!-- Footer -->
@@ -298,6 +320,8 @@
 		      <!-- Grid column -->
 		</footer>
 	<!-- Footer -->
+			</div>
+	
 	</div>
 </body>
 </html>

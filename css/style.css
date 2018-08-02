@@ -1,5 +1,5 @@
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
-
+/* CSS */
+body {background-color: #FAFAFA;}
 .navbar {
     color: #FFFFFF;
     background-color: #CC3333;
@@ -15,8 +15,6 @@
 	height:640px;
 	width: 100%;
 	opacity: 0.96;
- 	 border-bottom: solid #fafafa 3px;
-	 border-bottom-style: groove;
 	
 }
 
@@ -51,20 +49,30 @@
 .card-deck {
 	margin-bottom: 135px;
 	opacity: 0.93;
-	
-
 }
 
 .card-body {
 	border: 1px solid grey;
 	background-color: antiquewhite;
-	border-style: ridge;
+	
+}
+.bottom-cont {
+background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
+.top-cont {
+background: #EFEFBB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
 .card-title, .card-body, .card-text {
 	color: black;
-
 	
 }
 
@@ -90,27 +98,45 @@
 .div card-body, .english, .objetivos{
 	padding: 10px;
 	text-align: center;
-
 }
 
 #competencias{
 	text-align: center;
 	color: black; 
-
 }
-#competencias h2{
-	text-align: center;
-	color: black; 
-}
-
-#carouselito {
-	 border-bottom: solid #fafafa 3px;
-	 border-bottom-style: groove;
+#competencias p{ color: #111; 
+				font-family: 'Open Sans', sans-serif; 
+				font-size: 16px; 
+				padding-top: 10px;
+				text-align: center; 
+			
+			
 }
 
- body{
-	   	
-	   border-bottom: solid #fafafa 3px;
-	 border-bottom-style: groove;
+
+#competencias h2{ color: #111;
+				font-family: 'Helvetica Neue', sans-serif; 
+				font-size: 24px; 
+				font-weight: bold; 
+				letter-spacing: -1px; 
+				 
+				text-align: center;
+}
+.div hr {
+  height: 15px;
+  background: #fff url(hr1.gif) no-repeat scroll center;
+}
+.div hr {
+  display: none;
 }
 
+.accordion{
+	align: center;
+	
+	
+}
+
+.accordion h5{
+	color: #111;
+	
+}

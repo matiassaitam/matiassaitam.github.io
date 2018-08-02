@@ -1,0 +1,97 @@
+/* CSS */
+
+.navbar {
+    color: #FFFFFF;
+    background-color: #CC3333;
+	fixed-top
+}
+
+		
+.jumbotron{
+	margin-bottom: 0px;
+	margin-top: 20px;
+	background-image: url("https://www.digitalvibez.org/wp-content/uploads/2014/07/Backround-forest.jpg");
+	color: #4dff4d;
+	height:640px;
+	width: 100%;
+	opacity: 0.96;
+	
+}
+
+.display-2{
+	color: antiquewhite;
+	margin: auto;
+}
+
+.jumbo {
+	margin-top: 50px;
+
+}
+
+.jumbotron img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.col-md {
+	color: white;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.col-md h2 {
+	color: antiquewhite;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.card-deck {
+	margin-bottom: 135px;
+	opacity: 0.93;
+}
+
+.card-body {
+	border: 1px solid grey;
+	background-color: antiquewhite;
+	
+}
+
+.card-title, .card-body, .card-text {
+	color: black;
+	
+}
+
+#boton1 {
+	margin-top: 5px;
+}
+
+.card-subtitle {
+	color: #8A0808;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.container, ol{
+	text-align: left;
+	
+}
+
+.olenglish{
+	color: black;
+}
+
+.div card-body, .english, .objetivos{
+	padding: 10px;
+	text-align: center;
+}
+
+#competencias{
+	text-align: center;
+	color: black; 
+
+}
+h2{
+	text-align: center;
+	color: black; 
+}
