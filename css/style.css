@@ -1,4 +1,4 @@
-/* CSS */
+ CSS */
 body {background-color: #FAFAFA;}
 .navbar {
     color: #FFFFFF;
@@ -64,10 +64,7 @@ background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, F
 }
 
 .top-cont {
-background: #EFEFBB;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+   background: linear-gradient(to bottom left, #ffffcc 0%, #ccff99 100%);
 }
 
 
@@ -140,3 +137,15 @@ background: linear-gradient(to bottom, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, 
 	color: #111;
 	
 }
+
+#objetivocentral {
+	 margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; 
+       text-align: center;
+        }
+
+.top-cont h2{
+	padding: 	10px;
+}
+
