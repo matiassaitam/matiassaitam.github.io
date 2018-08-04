@@ -10,8 +10,8 @@ body {background-color: #FAFAFA;}
 .jumbotron{
 	margin-bottom: 0px;
 	margin-top: 20px;
-	background-image: url("https://www.digitalvibez.org/wp-content/uploads/2014/07/Backround-forest.jpg");
-	
+	background-image: url("http://www.hdwallpaperspulse.com/wp-content/uploads/2017/03/28/awesome-railway-road-image.jpg");
+	background-size: 100% 100%;
 	height:640px;
 	width: 100%;
 	opacity: 0.96;
@@ -57,18 +57,29 @@ body {background-color: #FAFAFA;}
 	
 }
 .bottom-cont {
-background: #abbaab;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-margin-top: 50px;
-}
-#textura{
-	 background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-	 background-image: url('https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiqvL3Yqs_cAhWCHpAKHY1hDfgQjRx6BAgBEAU&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F109937-dirty-grunge-background-texture&psig=AOvVaw0lflB0zlo8XUUhw_txmxMM&ust=1533332448440937')
+background: rgb(226,226,226); /* Old browsers */
+background: -moz-linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+margin-top: : 300px;
+
 }
 
+.container-fluid, .bottom-cont{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#contacto{
+	margin-top: 40px;
+}
+
+#textura{
+	background: url('../css/textura.jpg');
+    position: relative;
+    background-size:contain;
+}
 
 .card-title, .card-body, .card-text {
 	color: black;
@@ -129,7 +140,7 @@ margin-top: 50px;
 			
 }
 
-#competencias h2{ color: #111;
+#competencias h2{ color: white;
 				font-family: 'Helvetica Neue', sans-serif; 
 				font-size: 24px; 
 				font-weight: bold; 
@@ -137,16 +148,10 @@ margin-top: 50px;
 				 
 				text-align: center;
 }
-.div hr {
-  height: 15px;
-  background: #fff url(hr1.gif) no-repeat scroll center;
-}
-.div hr {
-  display: none;
-}
 
-.accordion{
+#accordion{
 	align: center;
+
 	
 	
 }
@@ -161,7 +166,10 @@ margin-top: 50px;
         float: none; /* Added */
         margin-bottom: 10px; 
        text-align: center;
+       background-color: #4d97d6;
         }
+
+
 
 .top-cont h2{
 	padding: 	10px;
@@ -170,5 +178,8 @@ margin-top: 50px;
 .col-md-6{
 
 	padding: 30px;
+	text-align: center;
+	margin: auto;
 
 }
+

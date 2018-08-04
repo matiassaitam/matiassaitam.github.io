@@ -10,6 +10,7 @@
 	<link rel = "stylesheet" type = "text/css" href = "css/style.css" /> <!-- STYLE.CSS -->
 	<!-- End of scripts and css stuff -->
 	<script src="js/top.js"></script>
+	<script src="js/accordion.js"></script>
 	
 	<title>Portfolio</title>
 	</head>
@@ -24,14 +25,14 @@
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
 				<div class="dropdown-menu container-fluid">
-					<a class="dropdown-item" href="#carouselito">Competencias</a>
-					<a class="dropdown-item" href="#plan de accion">Plan de Acción</a>
+					<a class="dropdown-item" href="#carouselito">Curso JAP</a>
+					<a class="dropdown-item" href="#textura">Competencias</a>
 					<a class="dropdown-item" href="#contacto">Contacto</a>
 				</div>
 				
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#carouselito">Competencias</a>
+				<a class="nav-link" href="#textura">Competencias</a>
 			</li>
 			<li>
 				<a class="nav-link" href="css/cv.pdf">Ver mi CV</a>
@@ -234,27 +235,29 @@
 				<div class="container comp">
 				  <div class="row">
 					<div class="col-md-6">
-						<div class="" id="competencias">
-							<h2><strong>Competencias transversales</strong></h2>
-				
-								<p>Dentro del área de competencias transversales he adquirido diversas habilidades y conocimientos que me permiten estar al día con el ámbito laboral y profesional desarrollando un enfoque consistente hacia el mismo. </p>
-								<p>Entre las competencias adquiridas a lo largo del curso puedo destacar; la proactividad, el trabajo en equipo, la comunicación, planificación, escucha activa, dedicación y el esfuerzo.</p>
-								<p>He vivido más de 2 años en el extranjero trabajando en diversos rubros y poseo dominio del idioma inglés.</p>
+						<div class="card" id="competencias">
+							<div class="card-body">
+								<h1 class="display-4">Competencias transversales</h1>
+					
+									<p>Dentro del área de competencias transversales he adquirido diversas habilidades y conocimientos que me permiten estar al día con el ámbito laboral y profesional desarrollando un enfoque consistente hacia el mismo. </p>
+									<p>Entre las competencias adquiridas a lo largo del curso puedo destacar; la proactividad, el trabajo en equipo, la comunicación, planificación, escucha activa, dedicación y el esfuerzo.</p>
+									<p>He vivido más de 2 años en el extranjero trabajando en diversos rubros y poseo dominio del idioma inglés.</p>
+							</div>
 						</div>
 				    </div>
 					<div class="col-md-6">
-						<div id="objetivocentral" class="card border-light mb-3 col-md-6" style="max-width: 24rem;">
-			  				<div class="card-header lg border-warning"><h3><strong>Objetivo Central</strong><h3></div>
+						<div class="card">
+			  				<div class="card-header bg-light border-primary"><h3><strong>Objetivo Central</strong><h3></div>
 			  				<div class="card-body text-dark">
 			    			<h5 class="card-title">Potenciar crecimiento personal y profesional</h5>
-			    			<p class="card-text">Incentivar y desarrollar las áreas de conocimiento brindadas por medio de JaP, atraves de certificaciones web, con el fin de mi actualización personal, profesional, y laboral.</p>
+			    			<p class="card-text">Incentivar y desarrollar las áreas de conocimiento brindadas por medio de JaP, atraves de certificaciones web y otros medios, con el fin de mi actualización personal, profesional, y laboral.</p>
 			  				</div>
 			 		 		<div class="card-footer bg-transparent border-primary">Horizonte de tiempo 1 año</div>
 						</div>
 					</div> 
 				</div>
 			</div>
-			<div class="container-fluid col-md-9 col-centered"
+			<div class="container-fluid col-md-9 col-centered">
 				<div class="accordion " id="accordion">
 				  <div class="card">
 					<div class="card-header" id="plan de accion">
@@ -267,8 +270,11 @@
 
 					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
 					  <div class="card-body">
-					 <p>¿Qué? Determinare mi objetivo central el cual ha sido fuertemente influenciado por medio de Jap.</p>
-						<p>Pretendo <strong>potenciar el crecimiento profesional y personal</strong> complementándome diariamente con las TICs.</p>
+					 	<p>Determinare las acciones necesarias a tener en cuenta dentro de la estrategia considerada para la satisfaccion de mi objetivo central.</p>
+						<p>A raiz de mi objetivo central fuertemente influenciado por medio de Jap;
+						</p>
+						<p><strong>Pretendo potenciar el crecimiento personal y profesional</strong> complementándome diariamente con las TICs.
+						</p>
 					  </div>
 					</div>
 				  </div>
@@ -285,7 +291,9 @@
 					  <div class="card-body">
 						<p>¿Cómo? Para lograr mi objetivo central establecere una estrategia en la cual pueda actualizar cotidianamente los conocimientos que me brindo JaP.</p>
 						<p>Recurso mas preciado: Tiempo.</p>
-						<p>Esto consistira en dedicar diariamente horas para el estudio como rutina, de tal manera culminar las certificaciones en desarrollo web que me permitan mayor inserción laboral. </p>
+						<p>Mi estrategia consistira en dedicar diariamente horas para el estudio y la actualizacion de los conocimientos pertinentes.
+						<p> De tal manera ajustarse a los cambios previstos, culminando las certificaciones en desarrollo web que me permitan mayor inserción laboral.</p>
+ 						<p>La estrategia requiere de constancia y disciplina, </p>
 					  </div>
 					</div>
 				</div>
@@ -331,7 +339,7 @@
 		      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
 		        <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
 		        <p><i class="fa fa-home mr-3"></i> Montevideo 15000, UY</p>
-		        <p><i class="fa fa-envelope mr-3"></i><a href="">matiasmorim_@hotmail.com</a></p>
+		        <p><i class="fa fa-envelope mr-3"></i><a href="">matiasamorim_@hotmail.com</a></p>
 		      </div>
 		      <!-- Grid column -->
 		</footer>
