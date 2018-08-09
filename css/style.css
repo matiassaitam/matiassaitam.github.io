@@ -3,9 +3,11 @@ body {background-color: #FAFAFA;}
 .navbar {
     color: #FFFFFF;
     background-color: #CC3333;
-	fixed-top
+	
 }
-
+#cartaCarousel {
+transform: translateX(-50%) translateY(-50%);
+}
 		
 .jumbotron{
 	margin-bottom: 0px;
@@ -23,8 +25,8 @@ body {background-color: #FAFAFA;}
 	margin: auto;
 }
 
-.jumbo {
-	margin-top: 50px;
+#jumbo {
+	background-color: rgba(0,0,0,0.5);
 
 }
 
@@ -38,6 +40,7 @@ body {background-color: #FAFAFA;}
 	color: white;
 	margin-top: 20px;
 	font-size: 18px;
+
 }
 
 .col-md h2 {
@@ -182,3 +185,4 @@ margin-top: : 300px;
 	margin: auto;
 
 }
+
